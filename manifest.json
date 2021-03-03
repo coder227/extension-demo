@@ -1,0 +1,12 @@
+{
+    "manifest_version" : 2,
+    "name" :"demo",
+    "description":"just a trial",
+    "version" :"1.0.0",
+    "icon":{"128":"logo.jpg"},
+    "browser_action":{
+        "default_icon":"logo.jpg",
+        "default_popup":"popup.html"
+    },
+    "permission":["activeTab"]
+}
